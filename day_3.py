@@ -1,5 +1,3 @@
-import time
-
 raw_input = open('puzzle_input_3.txt', 'r')
 puzzle_input = [line for line in raw_input]
 PART = 2
@@ -35,7 +33,5 @@ def main(puzzle_input):
 
 
 if __name__ == "__main__":
-    start_time = time.time()
     output = main(puzzle_input)
     print(output)
-    print(time.time() - start_time)
