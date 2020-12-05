@@ -27,6 +27,7 @@ def main(puzzle_input):
                 if line[x] == '#':
                     slope_trees += 1
                 x += run
+                #Loops puzzle input horizontally
                 x %= max_x
             tree_count *= slope_trees
         return tree_count
